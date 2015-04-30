@@ -10,14 +10,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //这是新改的
-        //张希祥修改了----
     }
 
-    @Override
-    protected void onResume() {
-
-        //xiugai
-        super.onResume();
-    }
 }
