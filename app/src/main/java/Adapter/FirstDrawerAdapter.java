@@ -35,6 +35,7 @@ public class FirstDrawerAdapter extends BaseAdapter {
         return FirstDrawerBeanList.size();
     }
 
+
     @Override
     public Object getItem(int position) {
         return FirstDrawerBeanList.get(position);

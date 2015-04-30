@@ -14,6 +14,7 @@ public class DrawerBean {
         this.tv = tv;
         this.iv2 = iv2;
 
+
     }
 
 
