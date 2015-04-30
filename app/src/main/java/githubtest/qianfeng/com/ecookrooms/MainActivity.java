@@ -11,6 +11,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //这是新改的
+        //张希祥修改了
     }
 
 }
