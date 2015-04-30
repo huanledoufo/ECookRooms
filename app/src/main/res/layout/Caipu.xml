@@ -1,0 +1,426 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Caipu_image1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/daily_menu" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="每日菜单"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Caipu_image2"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/recipesort" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="精选分类" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Caipu_image3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/recipeselect" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能选菜"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Caipu_image4"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/shake" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="菜谱摇摇"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+<!-- ****************************************************************-->
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/Caipu_image5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/chosen" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="精选专辑"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/Caipu_image6"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/recipewrite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建菜谱" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Caipu_image7"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/audit_recipe" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="审核菜谱"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_marginTop="70dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#5d8e9db6">
+
+    </TextView>
+
+
+
+  <!--下半部分********************************************************************-->
+
+
+    <LinearLayout
+
+        android:layout_marginTop="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/Caipu_linear_click1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="127dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/Linear_img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/iconleft"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp" />
+
+                <TextView
+                    android:layout_toRightOf="@+id/Linear_img1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最近流行"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/Linear_img1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="本周收藏人数最多的菜谱TOP榜单"
+
+                    >
+
+                </TextView>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_top"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp">
+
+                    </ImageView>
+
+            </RelativeLayout>
+            <!--*****************************************-->
+
+
+        </LinearLayout>
+
+        <TextView
+
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="#5d8e9db6">
+
+        </TextView>
+<!--**********************************************************************-->
+        <LinearLayout
+            android:id="@+id/Caipu_linear_click2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="127dp"
+                android:layout_height="150dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/Linear_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/iconright"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp" />
+
+                <TextView
+                    android:layout_toRightOf="@+id/Linear_img2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="最新菜谱"
+
+                    />
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/Linear_img2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="厨友们最新作品上传分享给大家"
+
+                    >
+
+                </TextView>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_fresh"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp">
+
+                    </ImageView>
+
+            </RelativeLayout>
+        </LinearLayout>
+<!--************************************************************************-->
+        <TextView
+
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="#5d8e9db6">
+
+        </TextView>
+<!--*************************************************************************-->
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Caipu_linear_click3"
+                >
+
+                <TextView
+                    android:id="@+id/shiling_txt"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="时令食材">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_below="@+id/shiling_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_season"
+                    android:layout_marginLeft="20dp">
+
+                </ImageView>
+            </RelativeLayout>
+
+            <TextView
+
+                android:layout_width="129dp"
+                android:layout_height="2dp"
+                android:background="#5d8e9db6">
+
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/Caipu_linear_click5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/shiling_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="大家都在做">
+
+                    </TextView>
+
+                <ImageView
+                    android:layout_below="@+id/shiling_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/pic_workcooks">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+<!--************************************************************************-->
+
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#5d8e9db6">
+
+    </TextView>
+
+
+</LinearLayout>
+
+
+
