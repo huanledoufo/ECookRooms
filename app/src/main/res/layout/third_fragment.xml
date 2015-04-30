@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal"
+        >
+            <ImageView
+                android:id="@+id/third_fragment_imgv1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_topic_brilliance"
+                />
+            <ImageView
+                android:id="@+id/third_fragment_imgv2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_topic_new"
+                />
+          <ImageView
+            android:id="@+id/third_fragment_imgv3"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_topic_follow"
+            />
+        <ImageView
+            android:id="@+id/third_fragment_imgv4"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_topic_gottalent"
+            />
+        <ImageView
+            android:id="@+id/third_fragment_imgv5"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_topic_more"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/third_fragment_tv1"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="精华帖"
+            android:textColor="#ffff7802"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/third_fragment_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最新"
+            android:textColor="#ffff7802"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="35dp"
+
+            />
+        <TextView
+            android:id="@+id/third_fragment_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注的人"
+            android:textColor="#ffff7802"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/third_fragment_tv4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="达人推荐"
+            android:textColor="#ffff7802"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15dp"
+
+            />
+        <TextView
+            android:id="@+id/third_fragment_tv5"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="更多"
+            android:textColor="#ffff7802"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="30dp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/third_fragment_list1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></ListView>
+
+    <ListView
+        android:id="@+id/third_fragment_list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+
+</LinearLayout>
