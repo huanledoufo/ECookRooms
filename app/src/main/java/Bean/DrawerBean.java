@@ -13,6 +13,7 @@ public class DrawerBean {
         this.iv1 = iv1;
         this.tv = tv;
         this.iv2 = iv2;
+
     }
 
 

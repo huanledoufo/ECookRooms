@@ -20,6 +20,7 @@ import githubtest.qianfeng.com.ecookrooms.R;
  */
 public class SecondDrawerAdapter extends BaseAdapter {
 
+
     private Context context;
     private List<DrawerBean> SecondDrawerBeanList;
 
