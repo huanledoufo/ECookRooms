@@ -3,10 +3,16 @@ package activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.lidroid.xutils.BitmapUtils;
+import com.lidroid.xutils.HttpUtils;
 import com.lidroid.xutils.ViewUtils;
+import com.lidroid.xutils.exception.HttpException;
+import com.lidroid.xutils.http.ResponseInfo;
+import com.lidroid.xutils.http.callback.RequestCallBack;
+import com.lidroid.xutils.http.client.HttpRequest;
 import com.lidroid.xutils.view.annotation.ViewInject;
 
 import java.util.Timer;
@@ -26,7 +32,7 @@ public class StartActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         ViewUtils.inject(this);
-        new BitmapUtils(this).display(image_start, "http://pic.ecook.cn/web/8585893.jpg");
+        new BitmapUtils(this).display(image_start, "http://pic.ecook.cn/web/8839564.jpg");
 
         Timer timer = new Timer();
         TimerTask task = new TimerTask() {
