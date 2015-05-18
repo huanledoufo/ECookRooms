@@ -149,6 +149,7 @@ public class MainActivity extends ActionBarActivity {
 
         vp_main.setAdapter(MyPagerAdapter.getInstance(getSupportFragmentManager(), fragment_list));
 
+
     }
 
     /**
